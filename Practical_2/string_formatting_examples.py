@@ -1,5 +1,5 @@
 """
-CP1404/CP5632 - Practical 2
+CP1404/CP5632 - Practical_2
 Various examples of using Python string formatting with the str.format() method
 Want to read more about it? https://docs.python.org/3/library/string.html#formatstrings
 """

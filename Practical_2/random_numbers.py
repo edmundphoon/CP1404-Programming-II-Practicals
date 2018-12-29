@@ -1,5 +1,5 @@
 """
-CP1404/CP5632 - Practical 2
+CP1404/CP5632 - Practical_2
 Pseudocode for Random numbers
 
 @author: edmundpjc
