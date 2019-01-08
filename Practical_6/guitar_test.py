@@ -10,11 +10,11 @@ def main():
     otherGuitar = Guitar("Gibson L-5 CES",2012,16035.40)
     print("{} ({}) : ${:,.2f}".format(otherGuitar.name, otherGuitar.year, otherGuitar.cost))
 
-    print("{} get_age() - Expected {:}. Got {:}".format(gibson.name, gibson.get_age(), gibson.get_age()))
-    print("{} get_age() - Expected {:}. Got {:}".format(otherGuitar.name, otherGuitar.get_age(), otherGuitar.get_age()))
+    print("{} get_age() - Expected 95. Got {:}".format(gibson.name, gibson.get_age()))
+    print("{} get_age() - Expected 5. Got {:}".format(otherGuitar.name, otherGuitar.get_age()))
 
-    print("{} is_vintage() - Expected {:}. Got {:}".format(gibson.name, gibson.is_vintage(), gibson.is_vintage()))
-    print("{} is_vintage() - Expected {:}. Got {:}".format(otherGuitar.name, otherGuitar.is_vintage(), otherGuitar.is_vintage()))
+    print("{} is_vintage() - Expected True. Got {:}".format(gibson.name, gibson.is_vintage()))
+    print("{} is_vintage() - Expected False. Got {:}".format(otherGuitar.name, otherGuitar.is_vintage()))
 
 
 main()
