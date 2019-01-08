@@ -7,7 +7,7 @@ def main():
     """Demo test code to show how to use car class."""
     gibson = Guitar("Gibson L-5 CES",1922,16035.40)
     print ("{} ({}) : ${:,.2f}".format(gibson.name, gibson.year, gibson.cost))
-    otherGuitar = Guitar("Gibson L-5 CES",2012,16035.40)
+    otherGuitar = Guitar("Gibson L-5 CES",2012,1512.9)
     print("{} ({}) : ${:,.2f}".format(otherGuitar.name, otherGuitar.year, otherGuitar.cost))
 
     print("{} get_age() - Expected 95. Got {:}".format(gibson.name, gibson.get_age()))
