@@ -23,6 +23,7 @@ def main():
     print ("These are my guitars:")
     vintage_string = ""
     count = 0
+    # enumerate function
     for count, guitar in enumerate(guitar_list):
         if guitar.is_vintage():
             vintage_string = "(vintage)"
