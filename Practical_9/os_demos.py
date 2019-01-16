@@ -36,7 +36,7 @@ def main():
         # TODO: Try these options one at a time
         # Option 1: rename file to new name - in place
         # os.rename(filename, new_name)
-        #FileNotFoundError: [Errno 2] No such file or directory: '._Angels from the Realm of Glory.txt' -> '._Angels_from_the_Realm_of_Glory.txt'
+        # FileNotFoundError: [Errno 2] No such file or directory: '._Angels from the Realm of Glory.txt' -> '._Angels_from_the_Realm_of_Glory.txt'
 
         # Option 2: move file to new place, with new name
         # shutil.move(filename, 'temp/' + new_name)
