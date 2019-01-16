@@ -12,6 +12,7 @@ def main():
     print("odo =", my_car.odometer)
     print(my_car)
 
+    # test out printing
     print("Car {}, {}".format(my_car.fuel, my_car.odometer))
     print("Car {self.fuel}, {self.odometer}".format(self=my_car))
 
