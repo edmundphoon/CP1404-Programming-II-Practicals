@@ -4,7 +4,7 @@
 class Car:
     """Represent a Car object."""
 
-    def __init__(self, name = "", fuel=0):
+    def __init__(self, name = "", fuel=0, odometer=0):
         """Initialise a Car instance.
         fuel: float, one unit of fuel drives one kilometre
         """
@@ -26,7 +26,7 @@ class Car:
             self.fuel = 0
         else:
             self.fuel -= distance
-        self.odometer += distance
+            self.odometer += distance
         return distance
 
     def __str__(self):
